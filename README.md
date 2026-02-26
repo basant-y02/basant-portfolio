@@ -32,13 +32,18 @@ Hi! I'm **Basant Yahia**, a Software Engineer specializing in ERP system develop
 GPA: 3.22 / 4.0 (Very Good)  
 
 ## Certificates
-- IT for Business Success – HP Foundation (Feb 2022)  
-- Mobile Development – Sprints x Microsoft Summer Camp (Aug 2024)  
-- UI/UX Design – Sprints x Microsoft Summer Camp (Aug 2024)  
-- Routing, Switching & Wireless Fundamentals – Cisco (Sep 2023)  
-- Flutter Boot Camp – EasyLearn Academy (Oct 2024)  
-- PHP & MySQL Web Development – Mahara-Tech (Aug 2024)  
-...and more
+- IT for Business Success – HP Foundation  
+- Mobile Development – Sprints x Microsoft Summer Camp  
+- UI/UX Design – Sprints x Microsoft Summer Camp  
+- Routing, Switching & Wireless Fundamentals – Cisco  
+- Flutter Boot Camp – EasyLearn Academy  
+- Building Web Apps using PHP & MySQL – Mahara-Tech  
+- Enterprise Networking, Security & Automation – Cisco Networking Academy  
+- Artificial Intelligence & Applications – Zewail City  
+- Maharat min Google – Fundamentals of Digital Marketing  
+- Web Development – Sprints x Microsoft Summer Camp  
+- Mobile App Development Fundamentals – Google Developer Student Clubs  
+- Introduction to Computer Networks – Cisco  
 
 ## Languages
 - Arabic – Native  
