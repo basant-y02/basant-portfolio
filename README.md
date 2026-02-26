@@ -4,7 +4,7 @@
 - 📞 01063221686  
 - 🌍 Hurghada, Red Sea, Egypt  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/basant-yahia)  
-- 🔗 [Live Demo](https://basant-yahia.netlify.app/)  
+- 🔗 [Live Demo](https://basant-portfolio.vercel.app/)  
 - 🔗 [GitHub](https://github.com/basant-y02/)
 
 ## About Me
