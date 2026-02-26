@@ -1,12 +1,10 @@
 # Basant Yahia Portfolio
 
-[Live Demo](https://basant-yahia.netlify.app/) | [LinkedIn](https://www.linkedin.com/in/basant-yahia) | [GitHub](https://github.com/basant-y02/)
-
 - 📧 basantyahia002@gmail.com  
 - 📞 01063221686  
 - 🌍 Hurghada, Red Sea, Egypt  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/basant-yahia)  
-- 🔗 [Portfolio Website](https://basant-yahia.netlify.app/)  
+- 🔗 [Live Demo](https://basant-yahia.netlify.app/)  
 - 🔗 [GitHub](https://github.com/basant-y02/)
 
 ## About Me
