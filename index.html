@@ -1,20 +1,24 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basant Yahia | Software Engineer | Full-Stack Developer</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Basant Yahia | Software Engineer | ERP & Full‑Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap"
+        rel="stylesheet" />
     <style>
+        /* root & all existing styles from previous version remain exactly the same */
         :root {
-            --primary: #6C63FF;
-            --secondary: #36D1DC;
+            --primary: #6c63ff;
+            --secondary: #36d1dc;
             --dark: #121212;
-            --dark-card: #1E1E1E;
-            --light: #FFFFFF;
-            --light-card: #F8F9FA;
-            --text-dark: #E0E0E0;
+            --dark-card: #1e1e1e;
+            --light: #ffffff;
+            --light-card: #f8f9fa;
+            --text-dark: #e0e0e0;
             --text-light: #333333;
             --gray: #888888;
             --transition: all 0.3s ease;
@@ -30,7 +34,7 @@
         }
 
         body {
-            font-family: 'Poppins', sans-serif;
+            font-family: "Poppins", sans-serif;
             background-color: var(--dark);
             color: var(--text-dark);
             overflow-x: hidden;
@@ -145,6 +149,7 @@
                 transform: translateY(0) rotate(0deg);
                 opacity: 1;
             }
+
             100% {
                 transform: translateY(-1000px) rotate(720deg);
                 opacity: 0;
@@ -204,7 +209,7 @@
         }
 
         .nav-links a::after {
-            content: '';
+            content: "";
             position: absolute;
             bottom: 0;
             left: 0;
@@ -363,7 +368,7 @@
         }
 
         .section-title::after {
-            content: '';
+            content: "";
             position: absolute;
             bottom: -10px;
             left: 0;
@@ -400,7 +405,9 @@
             object-fit: cover;
             border: 5px solid transparent;
             background: linear-gradient(45deg, var(--primary), var(--secondary)) border-box;
-            box-shadow: var(--shadow), 0 0 30px rgba(108, 99, 255, 0.3);
+            box-shadow:
+                var(--shadow),
+                0 0 30px rgba(108, 99, 255, 0.3);
             transition: var(--transition);
             position: relative;
             overflow: hidden;
@@ -408,17 +415,22 @@
 
         .profile-image:hover {
             transform: scale(1.05);
-            box-shadow: var(--shadow), 0 0 40px rgba(108, 99, 255, 0.5);
+            box-shadow:
+                var(--shadow),
+                0 0 40px rgba(108, 99, 255, 0.5);
         }
 
         .profile-image::before {
-            content: '';
+            content: "";
             position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(45deg, transparent, rgba(108, 99, 255, 0.1), transparent);
+            background: linear-gradient(45deg,
+                    transparent,
+                    rgba(108, 99, 255, 0.1),
+                    transparent);
             transform: translateX(-100%);
         }
 
@@ -442,13 +454,17 @@
             justify-content: center;
             color: white;
             font-size: 5rem;
-            box-shadow: var(--shadow), 0 0 30px rgba(108, 99, 255, 0.3);
+            box-shadow:
+                var(--shadow),
+                0 0 30px rgba(108, 99, 255, 0.3);
             transition: var(--transition);
         }
 
         .profile-placeholder:hover {
             transform: scale(1.05);
-            box-shadow: var(--shadow), 0 0 40px rgba(108, 99, 255, 0.5);
+            box-shadow:
+                var(--shadow),
+                0 0 40px rgba(108, 99, 255, 0.5);
         }
 
         .stats {
@@ -545,7 +561,7 @@
             transform: scale(1.05);
         }
 
-        /* Projects Section */
+        /* Projects Section (unchanged structure, only minor desc if needed) */
         .project-tabs {
             display: flex;
             flex-wrap: wrap;
@@ -659,7 +675,7 @@
             font-size: 0.9rem;
             cursor: pointer;
             border: none;
-            font-family: 'Poppins', sans-serif;
+            font-family: "Poppins", sans-serif;
         }
 
         .demo-btn {
@@ -873,7 +889,7 @@
         }
 
         .project-details li:before {
-            content: '▸';
+            content: "▸";
             color: var(--primary);
             position: absolute;
             left: -15px;
@@ -887,13 +903,15 @@
         }
 
         .timeline::before {
-            content: '';
+            content: "";
             position: absolute;
             left: 50%;
             transform: translateX(-50%);
             width: 2px;
             height: 100%;
-            background: linear-gradient(to bottom, var(--primary), var(--secondary));
+            background: linear-gradient(to bottom,
+                    var(--primary),
+                    var(--secondary));
         }
 
         .timeline-item {
@@ -947,7 +965,7 @@
         }
 
         .timeline-item::before {
-            content: '';
+            content: "";
             position: absolute;
             width: 20px;
             height: 20px;
@@ -1081,7 +1099,7 @@
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: var(--border-radius);
             color: var(--text-dark);
-            font-family: 'Poppins', sans-serif;
+            font-family: "Poppins", sans-serif;
             transition: var(--transition);
         }
 
@@ -1155,6 +1173,7 @@
                 opacity: 0;
                 transform: translateY(30px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -1164,7 +1183,9 @@
         .fade-in {
             opacity: 0;
             transform: translateY(30px);
-            transition: opacity 0.8s ease, transform 0.8s ease;
+            transition:
+                opacity 0.8s ease,
+                transform 0.8s ease;
         }
 
         .fade-in.visible {
@@ -1177,15 +1198,15 @@
             .about-content {
                 grid-template-columns: 1fr;
             }
-            
+
             .about-image-container {
                 order: -1;
             }
-            
+
             .contact-container {
                 grid-template-columns: 1fr;
             }
-            
+
             .hero h1 {
                 font-size: 2.8rem;
             }
@@ -1208,67 +1229,68 @@
                 z-index: 999;
                 gap: 15px;
             }
-            
+
             .light-mode .nav-links {
                 background-color: var(--light);
             }
-            
+
             .nav-links.active {
                 transform: translateY(0);
                 opacity: 1;
                 visibility: visible;
             }
-            
+
             .nav-links a {
                 padding: 10px 0;
                 font-size: 1.1rem;
             }
-            
+
             .mobile-menu {
                 display: block;
             }
-            
+
             .hero h1 {
                 font-size: 2.3rem;
             }
-            
+
             .hero h2 {
                 font-size: 1.5rem;
             }
-            
+
             .stats {
                 grid-template-columns: repeat(2, 1fr);
             }
-            
-            .profile-image, .profile-placeholder {
+
+            .profile-image,
+            .profile-placeholder {
                 width: 250px;
                 height: 250px;
             }
-            
+
             .timeline::before {
                 left: 20px;
             }
-            
+
             .timeline-item {
                 width: 100%;
                 padding-right: 0;
                 padding-left: 50px;
             }
-            
+
             .timeline-item:nth-child(even) {
                 margin-left: 0;
                 padding-left: 50px;
             }
-            
+
             .timeline-item::before {
                 left: 10px;
                 right: auto;
             }
-            
+
             .timeline-item:nth-child(even)::before {
                 left: 10px;
             }
-            
+
             .carousel-btn {
                 width: 35px;
                 height: 35px;
@@ -1279,25 +1301,26 @@
             .stats {
                 grid-template-columns: 1fr;
             }
-            
+
             .projects-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .btn-container {
                 flex-direction: column;
             }
-            
+
             .btn {
                 width: 100%;
                 justify-content: center;
             }
-            
-            .profile-image, .profile-placeholder {
+
+            .profile-image,
+            .profile-placeholder {
                 width: 200px;
                 height: 200px;
             }
-            
+
             .carousel-btn {
                 width: 30px;
                 height: 30px;
@@ -1306,75 +1329,74 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Animated Background -->
     <div class="bg-animation">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
     </div>
 
     <!-- Navigation -->
     <nav class="navbar">
-        <a href="#" class="logo">
-            <i class="fas fa-code"></i> Basant
-        </a>
-        
+        <a href="#" class="logo"> <i class="fas fa-code"></i> Basant </a>
         <div class="nav-links">
             <a href="#home" class="nav-link active">Home</a>
             <a href="#about" class="nav-link">About</a>
             <a href="#skills" class="nav-link">Skills</a>
             <a href="#projects" class="nav-link">Projects</a>
             <a href="#experience" class="nav-link">Experience</a>
+            <a href="#certificates" class="nav-link">Certificates</a>
             <a href="#contact" class="nav-link">Contact</a>
         </div>
-        
         <button class="theme-toggle" id="themeToggle">
             <i class="fas fa-moon"></i>
         </button>
-        
-        <div class="mobile-menu" id="mobileMenu">
-            <i class="fas fa-bars"></i>
-        </div>
+        <div class="mobile-menu" id="mobileMenu"><i class="fas fa-bars"></i></div>
     </nav>
 
-    <!-- Hero Section -->
+    <!-- Hero Section (updated with CV title & profile) -->
     <section class="hero" id="home">
         <div class="hero-content">
-            <h1>Basant Yahia</h1>
-            <h2>Software Engineer | Full-Stack Developer | UI/UX Designer</h2>
-            <p>Expert in building scalable web applications, enterprise systems, and WordPress solutions. Passionate about performance optimization and creating user-centered digital experiences.</p>
-            
+            <h1>Basant Yahia Mohamed</h1>
+            <h2>
+                Software Engineer | ERP Systems Developer | Full‑Stack & Desktop
+                Applications
+            </h2>
+            <p>
+                Dynamic Software Engineer specializing in ERP system development,
+                full‑stack web applications, and desktop software solutions.
+                Experienced in designing financial, inventory, and cashier modules.
+                Skilled in database modeling (ERD), system architecture, and business
+                logic. Proficient in PHP, Python, MySQL, and Qt/MySQL with strong
+                UI/UX foundation.
+            </p>
             <div class="btn-container">
-                <a href="#projects" class="btn btn-primary">
-                    <i class="fas fa-rocket"></i> View Projects
-                </a>
-                <a href="assets/cv/Basant_Yahia_Resume.pdf" target="_blank" class="btn btn-secondary" id="downloadCV">
-                    <i class="fas fa-download"></i> Download CV
-                </a>
-                <a href="#contact" class="btn btn-secondary">
-                    <i class="fas fa-envelope"></i> Contact Me
-                </a>
+                <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View Projects</a>
+                <a href="#" class="btn btn-secondary" id="downloadCV"><i class="fas fa-download"></i> Download CV</a>
+                <a href="#contact" class="btn btn-secondary"><i class="fas fa-envelope"></i> Contact Me</a>
             </div>
         </div>
     </section>
 
-    <!-- About Section with Image -->
+    <!-- About Section (CV profile) -->
     <section id="about">
         <h2 class="section-title">About Me</h2>
-        
         <div class="about-content">
             <div class="about-text fade-in">
-                <p>Dynamic Software Engineer and Full-Stack Developer with expertise in building scalable web applications, enterprise systems, and WordPress solutions. Proficient in PHP, MySQL, WordPress, and modern frontend technologies, with a strong foundation in UI/UX design.</p>
-                <p>Skilled in developing responsive interfaces, optimizing performance, and delivering user-centered solutions that drive business objectives. Passionate about leveraging emerging technologies to create impactful digital experiences.</p>
-                
+                <p>
+                    Dynamic Software Engineer specializing in ERP system development,
+                    full‑stack web applications, and desktop software solutions.
+                    Experienced in designing and implementing enterprise systems
+                    including financial, inventory, and cashier modules. Skilled in
+                    database modeling (ERD), system architecture, and business logic
+                    development.
+                </p>
+                <p>
+                    Proficient in PHP, Python, MySQL, and Qt/MySQL with a strong
+                    foundation in UI/UX design. Passionate about building scalable,
+                    efficient systems that solve real‑world business challenges.
+                </p>
                 <div class="stats">
                     <div class="stat-card">
                         <div class="stat-number" id="projectCount">0</div>
@@ -1390,356 +1412,401 @@
                     </div>
                 </div>
             </div>
-            
             <div class="about-image-container fade-in">
                 <div class="profile-placeholder">
-                    <img src="assets/images/image.png" alt="Basant Yahia" class="profile-image">
-                    <!-- <i class="fas fa-user-tie"></i> -->
+                    <img src="assets/images/image.png" alt="Basant Yahia" class="profile-image" />
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
+    <!-- Skills Section (fully aligned with CV) -->
     <section id="skills">
         <h2 class="section-title">Technical Skills</h2>
-        
         <div class="skills-container">
             <div class="skill-category fade-in">
-                <h3><i class="fab fa-html5"></i> Frontend</h3>
+                <h3><i class="fas fa-code"></i> Programming Languages</h3>
                 <div class="skill-items">
-                    <span class="skill-badge">HTML</span>
-                    <span class="skill-badge">CSS</span>
-                    <span class="skill-badge">JavaScript</span>
-                    <span class="skill-badge">Bootstrap</span>
-                    <span class="skill-badge">Tailwind CSS</span>
-                    <span class="skill-badge">jQuery</span>
-                    <span class="skill-badge">WordPress</span>
-                    <span class="skill-badge">JSON</span>
-                    <span class="skill-badge">XML</span>
+                    <span class="skill-badge">Python</span><span class="skill-badge">PHP</span><span
+                        class="skill-badge">JavaScript</span><span class="skill-badge">Dart</span><span
+                        class="skill-badge">C++</span>
                 </div>
             </div>
-            
+            <div class="skill-category fade-in">
+                <h3><i class="fab fa-html5"></i> Web Development</h3>
+                <div class="skill-items">
+                    <span class="skill-badge">HTML</span><span class="skill-badge">CSS</span><span
+                        class="skill-badge">JavaScript</span><span class="skill-badge">Bootstrap</span><span
+                        class="skill-badge">Tailwind CSS</span><span class="skill-badge">jQuery</span><span
+                        class="skill-badge">JSON</span><span class="skill-badge">XML</span><span
+                        class="skill-badge">WordPress</span><span class="skill-badge">SweetAlert2</span>
+                </div>
+            </div>
             <div class="skill-category fade-in">
                 <h3><i class="fas fa-server"></i> Backend</h3>
                 <div class="skill-items">
-                    <span class="skill-badge">PHP</span>
-                    <span class="skill-badge">Python</span>
-                    <span class="skill-badge">Flask</span>
-                    <span class="skill-badge">REST APIs</span>
+                    <span class="skill-badge">Flask</span><span class="skill-badge">RESTful APIs</span><span
+                        class="skill-badge">OOP</span>
                 </div>
             </div>
-            
             <div class="skill-category fade-in">
-                <h3><i class="fas fa-desktop"></i> Desktop & Systems</h3>
+                <h3><i class="fas fa-desktop"></i> Desktop</h3>
                 <div class="skill-items">
-                    <span class="skill-badge">Qt Creator</span>
-                    <span class="skill-badge">Qt Design</span>
-                    <span class="skill-badge">PySide6</span>
-                    <span class="skill-badge">Python</span>
+                    <span class="skill-badge">Qt</span><span class="skill-badge">PySide6</span>
                 </div>
             </div>
-            
-            <div class="skill-category fade-in">
-                <h3><i class="fas fa-mobile-alt"></i> Mobile</h3>
-                <div class="skill-items">
-                    <span class="skill-badge">Flutter</span>
-                    <span class="skill-badge">Dart</span>
-                </div>
-            </div>
-            
             <div class="skill-category fade-in">
                 <h3><i class="fas fa-database"></i> Database</h3>
                 <div class="skill-items">
-                    <span class="skill-badge">MySQL</span>
-                    <span class="skill-badge">SQL Server</span>
-                    <span class="skill-badge">SQL Queries</span>
-                    <span class="skill-badge">SSMS</span>
+                    <span class="skill-badge">MySQL</span><span class="skill-badge">SQLite</span><span
+                        class="skill-badge">SQL Server</span><span class="skill-badge">SSMS</span><span
+                        class="skill-badge">Advanced SQL Queries</span>
                 </div>
             </div>
-            
             <div class="skill-category fade-in">
-                <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                <h3><i class="fas fa-project-diagram"></i> System Design</h3>
                 <div class="skill-items">
-                    <span class="skill-badge">Git</span>
-                    <span class="skill-badge">GitHub</span>
-                    <span class="skill-badge">Figma</span>
-                    <span class="skill-badge">Postman</span>
-                    <span class="skill-badge">Android Studio</span>
-                    <span class="skill-badge">Qt Creator</span>
-                    <span class="skill-badge">MAMP</span>
+                    <span class="skill-badge">ERD</span><span class="skill-badge">Data Modeling</span><span
+                        class="skill-badge">Business Logic Design</span><span class="skill-badge">System
+                        Architecture</span>
                 </div>
             </div>
-            
             <div class="skill-category fade-in">
-                <h3><i class="fas fa-palette"></i> UI/UX & Design</h3>
+                <h3><i class="fas fa-mobile-alt"></i> Mobile Development</h3>
                 <div class="skill-items">
-                    <span class="skill-badge">UI Design</span>
-                    <span class="skill-badge">UX Research</span>
-                    <span class="skill-badge">Wireframing</span>
-                    <span class="skill-badge">Prototyping</span>
+                    <span class="skill-badge">Flutter</span>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3><i class="fas fa-tools"></i> Tools</h3>
+                <div class="skill-items">
+                    <span class="skill-badge">Git</span><span class="skill-badge">GitHub</span><span
+                        class="skill-badge">Figma</span><span class="skill-badge">Qt Creator</span><span
+                        class="skill-badge">Android Studio</span><span class="skill-badge">Postman</span><span
+                        class="skill-badge">MAMP</span>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3><i class="fas fa-paint-brush"></i> UI/UX</h3>
+                <div class="skill-items">
+                    <span class="skill-badge">UI Design</span><span class="skill-badge">UX Research</span><span
+                        class="skill-badge">Prototyping</span><span class="skill-badge">Usability Testing</span><span
+                        class="skill-badge">Workflow Optimization</span><span class="skill-badge">Wireframing</span>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3><i class="fas fa-chart-line"></i> Digital Marketing</h3>
+                <div class="skill-items">
+                    <span class="skill-badge">SEO</span><span class="skill-badge">SEM</span><span
+                        class="skill-badge">Social Media Marketing</span><span class="skill-badge">Content
+                        Strategy</span>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3><i class="fas fa-users"></i> Soft Skills</h3>
+                <div class="skill-items">
+                    <span class="skill-badge">Teamwork</span><span class="skill-badge">Communication</span><span
+                        class="skill-badge">Problem-Solving</span><span class="skill-badge">Requirement Analysis</span>
+                </div>
+            </div>
+            <div class="skill-category fade-in">
+                <h3><i class="fas fa-bug"></i> Other Skills</h3>
+                <div class="skill-items">
+                    <span class="skill-badge">Software Testing</span><span class="skill-badge">Debugging</span>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
+    <!-- Projects Section (placeholder projects kept, no contradiction) -->
     <section id="projects">
         <h2 class="section-title">Featured Projects</h2>
-        
         <div class="project-tabs">
-            <button class="tab-btn active" data-tab="all">All Projects</button>
-            <button class="tab-btn" data-tab="systems">Systems</button>
-            <button class="tab-btn" data-tab="websites">Websites</button>
-            <button class="tab-btn" data-tab="wordpress">WordPress</button>
-            <button class="tab-btn" data-tab="mobile">Mobile</button>
+            <button class="tab-btn active" data-tab="all">All Projects</button><button class="tab-btn"
+                data-tab="systems">Systems</button><button class="tab-btn" data-tab="websites">Websites</button><button
+                class="tab-btn" data-tab="wordpress">WordPress</button><button class="tab-btn"
+                data-tab="mobile">Mobile</button>
         </div>
-        
         <div class="projects-grid">
-            <!-- Systems Projects -->
+            <!-- Systems -->
             <div class="project-card fade-in" data-category="systems">
-                <div class="project-img" style="background: linear-gradient(45deg, #2E3192, #1BFFFF);">
+                <div class="project-img" style="background: linear-gradient(45deg, #2e3192, #1bffff)">
                     <i class="fas fa-pills"></i>
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">Pharmacy Management System</h3>
-                    <p class="project-desc">Complete pharmacy management solution with POS, inventory, sales tracking, and reporting features.</p>
-                    
+                    <p class="project-desc">
+                        Complete pharmacy ERP with POS, inventory, sales & reporting.
+                    </p>
                     <div class="project-tech">
-                        <span class="tech-badge">Qt Creator</span>
-                        <span class="tech-badge">PySide6</span>
-                        <span class="tech-badge">Python</span>
-                        <span class="tech-badge">SQL Server</span>
+                        <span class="tech-badge">Qt Creator</span><span class="tech-badge">PySide6</span><span
+                            class="tech-badge">Python</span><span class="tech-badge">SQL Server</span>
                     </div>
-                    
                     <div class="project-buttons">
-                        <button class="project-btn demo-btn" data-project="pharmacy" data-type="demo">View Demo</button>
-                        <button class="project-btn overview-btn" data-project="pharmacy" data-type="overview">System Overview</button>
+                        <button class="project-btn demo-btn" data-project="pharmacy" data-type="demo">
+                            View Demo</button><button class="project-btn overview-btn" data-project="pharmacy"
+                            data-type="overview">
+                            Overview
+                        </button>
                     </div>
                 </div>
             </div>
-            
             <div class="project-card fade-in" data-category="systems">
-                <div class="project-img" style="background: linear-gradient(45deg, #D4145A, #FBB03B);">
+                <div class="project-img" style="background: linear-gradient(45deg, #d4145a, #fbb03b)">
                     <i class="fas fa-utensils"></i>
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">Restaurant Management System</h3>
-                    <p class="project-desc">Comprehensive restaurant system with table management, ordering, billing, and kitchen coordination.</p>
-                    
+                    <p class="project-desc">
+                        Comprehensive system with table management, ordering & billing.
+                    </p>
                     <div class="project-tech">
-                        <span class="tech-badge">Qt Creator</span>
-                        <span class="tech-badge">Qt Design</span>
-                        <span class="tech-badge">Python</span>
-                        <span class="tech-badge">MySQL</span>
+                        <span class="tech-badge">Qt Creator</span><span class="tech-badge">Python</span><span
+                            class="tech-badge">MySQL</span>
                     </div>
-                    
                     <div class="project-buttons">
-                        <button class="project-btn demo-btn" data-project="restaurant" data-type="demo">View Demo</button>
-                        <button class="project-btn overview-btn" data-project="restaurant" data-type="overview">System Overview</button>
+                        <button class="project-btn demo-btn" data-project="restaurant" data-type="demo">
+                            Demo</button><button class="project-btn overview-btn" data-project="restaurant"
+                            data-type="overview">
+                            Overview
+                        </button>
                     </div>
                 </div>
             </div>
-            
-            <!-- Website Projects -->
+            <!-- Websites -->
             <div class="project-card fade-in" data-category="websites">
-                <div class="project-img" style="background: linear-gradient(45deg, #009245, #FCEE21);">
+                <div class="project-img" style="background: linear-gradient(45deg, #009245, #fcee21)">
                     <i class="fas fa-plane"></i>
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">EgGo Travel – Tourism Website</h3>
-                    <p class="project-desc">Full-featured tourism website with booking system, destination guides, and payment integration.</p>
-                    
+                    <p class="project-desc">
+                        Tourism website with booking system and payment integration.
+                    </p>
                     <div class="project-tech">
-                        <span class="tech-badge">HTML</span>
-                        <span class="tech-badge">CSS</span>
-                        <span class="tech-badge">JavaScript</span>
-                        <span class="tech-badge">PHP</span>
-                        <span class="tech-badge">Bootstrap</span>
+                        <span class="tech-badge">HTML</span><span class="tech-badge">CSS</span><span
+                            class="tech-badge">PHP</span><span class="tech-badge">Bootstrap</span>
                     </div>
-                    
                     <div class="project-buttons">
-                        <a href="https://eggotravel.com/" target="_blank" class="project-btn demo-btn">Live Preview</a>
-                        <button class="project-btn overview-btn" data-project="eggo" data-type="overview">View Details</button>
+                        <a href="https://eggotravel.com/" target="_blank" class="project-btn demo-btn">Live
+                            Preview</a><button class="project-btn overview-btn" data-project="eggo"
+                            data-type="overview">
+                            Details
+                        </button>
                     </div>
                 </div>
             </div>
-            
             <div class="project-card fade-in" data-category="websites">
-                <div class="project-img" style="background: linear-gradient(45deg, #662D8C, #ED1E79);">
+                <div class="project-img" style="background: linear-gradient(45deg, #662d8c, #ed1e79)">
                     <i class="fas fa-graduation-cap"></i>
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">Student Assistant Website</h3>
-                    <p class="project-desc">Web-based academic management system with summaries, quizzes, GPA calculator, and deadline tracking.</p>
-                    
+                    <p class="project-desc">
+                        Academic management with quizzes, GPA calculator, deadlines.
+                    </p>
                     <div class="project-tech">
-                        <span class="tech-badge">HTML</span>
-                        <span class="tech-badge">CSS</span>
-                        <span class="tech-badge">JavaScript</span>
-                        <span class="tech-badge">PHP</span>
-                        <span class="tech-badge">MySQL</span>
+                        <span class="tech-badge">HTML</span><span class="tech-badge">CSS</span><span
+                            class="tech-badge">PHP</span><span class="tech-badge">MySQL</span>
                     </div>
-                    
                     <div class="project-buttons">
-                        <a href="https://www.dropbox.com/scl/fi/725xdk10xr7l4rdjzr12o/Demonstration.Video.Student.Assistant.Project.mp4?rlkey=pdko9ag099uex6se46tkmktyp&e=1&st=pvjt3mem&dl=0" 
-                        target="_blank" class="project-btn demo-btn">Live Preview</a>
-                        <button class="project-btn overview-btn" data-project="student" data-type="overview">View Details</button>
+                        <a href="#" class="project-btn demo-btn">Live Preview</a><button
+                            class="project-btn overview-btn" data-project="student" data-type="overview">
+                            Details
+                        </button>
                     </div>
                 </div>
             </div>
-            
-            <!-- WordPress Projects -->
+            <!-- WordPress -->
             <div class="project-card fade-in" data-category="wordpress">
-                <div class="project-img" style="background: linear-gradient(45deg, #ED1C24, #FCEE21);">
+                <div class="project-img" style="background: linear-gradient(45deg, #ed1c24, #fcee21)">
                     <i class="fas fa-car"></i>
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">Car Rental Website</h3>
-                    <p class="project-desc">Custom WordPress theme with vehicle booking, availability checking, and payment processing.</p>
-                    
+                    <p class="project-desc">
+                        Custom WordPress theme with vehicle booking system.
+                    </p>
                     <div class="project-tech">
-                        <span class="tech-badge">WordPress</span>
-                        <span class="tech-badge">PHP</span>
-                        <span class="tech-badge">Custom Theme</span>
-                        <span class="tech-badge">Plugin Integration</span>
+                        <span class="tech-badge">WordPress</span><span class="tech-badge">PHP</span><span
+                            class="tech-badge">Custom Theme</span>
                     </div>
-                    
                     <div class="project-buttons">
-                        <a href="https://a1-carrental.com/" target="_blank" class="project-btn demo-btn">View Website</a>
-                        <button class="project-btn overview-btn" data-project="car" data-type="overview">Project Details</button>
+                        <a href="https://a1-carrental.com/" target="_blank" class="project-btn demo-btn">View
+                            Website</a><button class="project-btn overview-btn" data-project="car" data-type="overview">
+                            Details
+                        </button>
                     </div>
                 </div>
             </div>
-            
-            <!-- Mobile Projects -->
+            <!-- Mobile -->
             <div class="project-card fade-in" data-category="mobile">
-                <div class="project-img" style="background: linear-gradient(45deg, #134E5E, #71B280);">
+                <div class="project-img" style="background: linear-gradient(45deg, #134e5e, #71b280)">
                     <i class="fas fa-shopping-cart"></i>
                 </div>
                 <div class="project-content">
                     <h3 class="project-title">Shopping Mobile App</h3>
-                    <p class="project-desc">Feature-rich e-commerce app with authentication, product listing, cart, and animated navigation.</p>
-                    
+                    <p class="project-desc">
+                        E‑commerce app built with Flutter & Dart.
+                    </p>
                     <div class="project-tech">
-                        <span class="tech-badge">Flutter</span>
-                        <span class="tech-badge">Dart</span>
-                        <span class="tech-badge">Firebase</span>
+                        <span class="tech-badge">Flutter</span><span class="tech-badge">Dart</span>
                     </div>
-                    
                     <div class="project-buttons">
-                        <button class="project-btn demo-btn" data-project="shopping" data-type="demo">App Demo</button>
-                        <button class="project-btn overview-btn" data-project="shopping" data-type="overview">App Overview</button>
+                        <button class="project-btn demo-btn" data-project="shopping" data-type="demo">
+                            App Demo</button><button class="project-btn overview-btn" data-project="shopping"
+                            data-type="overview">
+                            Overview
+                        </button>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Experience & Education -->
+    <!-- Experience & Education (CV data) -->
     <section id="experience">
         <h2 class="section-title">Experience & Education</h2>
-        
         <div class="timeline">
             <div class="timeline-item fade-in">
                 <div class="timeline-content">
-                    <span class="timeline-date">06/2024 - 08/2025</span>
+                    <span class="timeline-date">06/2024 – 08/2025</span>
                     <h3 class="timeline-title">Software Developer</h3>
-                    <h4>Tech Gear Solutions</h4>
-                    <p class="timeline-desc">Developed full-stack web applications and enterprise systems, including financial and cashier modules supporting over 100 daily users. Optimized system performance, reducing load times by 20%.</p>
+                    <h4>Tech Gear Solutions · Hurghada</h4>
+                    <ul style="list-style: none; padding-left: 0; margin-top: 10px">
+                        <li style="margin-bottom: 6px">
+                            ✓ Analyzed business requirements, designed ERP solutions
+                            streamlining operations.
+                        </li>
+                        <li style="margin-bottom: 6px">
+                            ✓ Developed responsive web interfaces using HTML, CSS, JS,
+                            Bootstrap.
+                        </li>
+                        <li style="margin-bottom: 6px">
+                            ✓ Built full‑stack enterprise systems (financial & cashier
+                            modules) supporting 100+ daily users.
+                        </li>
+                        <li style="margin-bottom: 6px">
+                            ✓ Optimized performance, reduced load times by 20% through
+                            testing & refactoring.
+                        </li>
+                        <li style="margin-bottom: 6px">
+                            ✓ Collaborated cross‑functionally, delivered projects on time
+                            with high quality.
+                        </li>
+                        <li>
+                            ✓ Recognized for professionalism and continuous
+                            self‑improvement.
+                        </li>
+                    </ul>
                 </div>
             </div>
-            
             <div class="timeline-item fade-in">
                 <div class="timeline-content">
-                    <span class="timeline-date">2020 - 2024</span>
-                    <h3 class="timeline-title">B.Sc. in Computers & Information Technology</h3>
-                    <h4>Egyptian E-Learning University</h4>
-                    <p class="timeline-desc">Graduated with a GPA of 3.22. Specialized in Information Technology with coursework in software engineering, database management, web development, and networking.</p>
+                    <span class="timeline-date">2020 – 2024</span>
+                    <h3 class="timeline-title">
+                        B.Sc. in Computers & Information Technology
+                    </h3>
+                    <h4>Egyptian E‑Learning University</h4>
+                    <p class="timeline-desc">GPA: 3.22 / 4.0 (Very Good).</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Certificates -->
+    <!-- Certificates (all 12 from CV) -->
     <section id="certificates">
         <h2 class="section-title">Certificates</h2>
-        
         <div class="certificates-grid">
             <div class="certificate-card fade-in">
-                <h3>Web Development</h3>
-                <p>Sprints x Microsoft Summer Camp</p>
-                <span class="certificate-date">July 2024</span>
+                <h3>IT for Business Success</h3>
+                <p>HP Foundation</p>
+                <span class="certificate-date">February 2022</span>
             </div>
-            
             <div class="certificate-card fade-in">
                 <h3>Mobile Development</h3>
                 <p>Sprints x Microsoft Summer Camp</p>
                 <span class="certificate-date">August 2024</span>
             </div>
-            
             <div class="certificate-card fade-in">
                 <h3>UI/UX Design</h3>
                 <p>Sprints x Microsoft Summer Camp</p>
                 <span class="certificate-date">August 2024</span>
             </div>
-            
             <div class="certificate-card fade-in">
-                <h3>Building Web Applications using PHP & MySQL</h3>
-                <p>Mahara-Tech</p>
-                <span class="certificate-date">August 2024</span>
+                <h3>Routing, Switching & Wireless Fundamentals</h3>
+                <p>Cisco</p>
+                <span class="certificate-date">September 2023</span>
             </div>
-            
             <div class="certificate-card fade-in">
                 <h3>Flutter Boot Camp</h3>
                 <p>EasyLearn Academy</p>
                 <span class="certificate-date">October 2024</span>
             </div>
-            
+            <div class="certificate-card fade-in">
+                <h3>Building Web Applications using PHP & MySQL</h3>
+                <p>Mahara‑Tech</p>
+                <span class="certificate-date">August 2024</span>
+            </div>
             <div class="certificate-card fade-in">
                 <h3>Enterprise Networking, Security & Automation</h3>
                 <p>Cisco Networking Academy</p>
                 <span class="certificate-date">May 2024</span>
             </div>
+            <div class="certificate-card fade-in">
+                <h3>Artificial Intelligence & Applications</h3>
+                <p>Zewail City</p>
+                <span class="certificate-date">August 2023</span>
+            </div>
+            <div class="certificate-card fade-in">
+                <h3>Maharat min Google Fundamentals of Digital Marketing</h3>
+                <p>Google x BANQUE MISR</p>
+                <span class="certificate-date">September 2024</span>
+            </div>
+            <div class="certificate-card fade-in">
+                <h3>Web Development</h3>
+                <p>Sprints x Microsoft Summer Camp</p>
+                <span class="certificate-date">July 2024</span>
+            </div>
+            <div class="certificate-card fade-in">
+                <h3>Mobile App Development Fundamentals</h3>
+                <p>Google Developer Student Clubs</p>
+                <span class="certificate-date">February 2024</span>
+            </div>
+            <div class="certificate-card fade-in">
+                <h3>Introduction to Computer Networks</h3>
+                <p>Cisco</p>
+                <span class="certificate-date">June 2023</span>
+            </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
+    <!-- Contact Section (updated with CV contact details) -->
     <section id="contact">
         <h2 class="section-title">Get In Touch</h2>
-        
         <div class="contact-container">
             <div class="contact-info">
                 <div class="contact-card fade-in">
-                    <div class="contact-icon">
-                        <i class="fas fa-envelope"></i>
-                    </div>
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
                     <div class="contact-text">
                         <h3>Email</h3>
-                        <p>basantyahia002@gmail.com</p>
+                        <p>basantyahiaoo2@gmail.com</p>
                     </div>
                 </div>
-                
                 <div class="contact-card fade-in">
-                    <div class="contact-icon">
-                        <i class="fas fa-phone"></i>
-                    </div>
+                    <div class="contact-icon"><i class="fas fa-phone"></i></div>
                     <div class="contact-text">
                         <h3>Phone</h3>
                         <p>+20 106 322 1686</p>
                     </div>
                 </div>
-                
                 <div class="contact-card fade-in">
-                    <div class="contact-icon">
-                        <i class="fab fa-whatsapp"></i>
-                    </div>
+                    <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
                     <div class="contact-text">
                         <h3>WhatsApp</h3>
                         <p>+20 106 322 1686</p>
                     </div>
                 </div>
-                
                 <div class="contact-card fade-in">
                     <div class="contact-icon">
                         <i class="fas fa-map-marker-alt"></i>
@@ -1750,26 +1817,21 @@
                     </div>
                 </div>
             </div>
-            
             <div class="contact-form fade-in">
                 <form id="contactForm">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Your Name" required>
+                        <input type="text" class="form-control" placeholder="Your Name" required />
                     </div>
-                    
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Your Email" required>
+                        <input type="email" class="form-control" placeholder="Your Email" required />
                     </div>
-                    
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Subject" required>
+                        <input type="text" class="form-control" placeholder="Subject" required />
                     </div>
-                    
                     <div class="form-group">
                         <textarea class="form-control" placeholder="Your Message" required></textarea>
                     </div>
-                    
-                    <button type="submit" class="btn btn-primary" style="width: 100%;">
+                    <button type="submit" class="btn btn-primary" style="width: 100%">
                         <i class="fas fa-paper-plane"></i> Send Message
                     </button>
                 </form>
@@ -1777,23 +1839,17 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Footer (updated social links) -->
     <footer>
         <div class="social-links">
-            <a href="https://www.linkedin.com/in/basant-yahia" target="_blank" class="social-icon">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a href="https://github.com/basant-y02" target="_blank" class="social-icon">
-                <i class="fab fa-github"></i>
-            </a>
-            <!-- <a href="https://basant-yahia.netlify.app/" target="_blank" class="social-icon">
-                <i class="fas fa-globe"></i>
-            </a> -->
-            <a href="https://wa.me/201063221686" target="_blank" class="social-icon">
-                <i class="fab fa-whatsapp"></i>
-            </a>
+            <a href="https://www.linkedin.com/in/basant-yahia" target="_blank" class="social-icon"><i
+                    class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/basant-yo2" target="_blank" class="social-icon"><i
+                    class="fab fa-github"></i></a>
+            <a href="https://basant-portfolio.vercel.app/" target="_blank" class="social-icon"><i
+                    class="fas fa-globe"></i></a>
+            <a href="https://wa.me/201063221686" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
         </div>
-        
         <p class="copyright">© 2025 Eng/Basant Yahia. All Rights Reserved.</p>
     </footer>
 
@@ -1804,83 +1860,81 @@
                 <i class="fas fa-times"></i>
             </button>
             <h2 class="modal-title" id="modalTitle">Project Title</h2>
-            <div class="modal-content" id="modalContent">
-                <!-- Content will be inserted here -->
-            </div>
+            <div class="modal-content" id="modalContent"></div>
         </div>
     </div>
 
     <script>
         // Theme Toggle
-        const themeToggle = document.getElementById('themeToggle');
-        const themeIcon = themeToggle.querySelector('i');
-        
-        themeToggle.addEventListener('click', () => {
-            document.body.classList.toggle('light-mode');
-            
-            if (document.body.classList.contains('light-mode')) {
-                themeIcon.className = 'fas fa-sun';
-                localStorage.setItem('theme', 'light');
+        const themeToggle = document.getElementById("themeToggle");
+        const themeIcon = themeToggle.querySelector("i");
+
+        themeToggle.addEventListener("click", () => {
+            document.body.classList.toggle("light-mode");
+
+            if (document.body.classList.contains("light-mode")) {
+                themeIcon.className = "fas fa-sun";
+                localStorage.setItem("theme", "light");
             } else {
-                themeIcon.className = 'fas fa-moon';
-                localStorage.setItem('theme', 'dark');
+                themeIcon.className = "fas fa-moon";
+                localStorage.setItem("theme", "dark");
             }
         });
-        
+
         // Load saved theme
-        if (localStorage.getItem('theme') === 'light') {
-            document.body.classList.add('light-mode');
-            themeIcon.className = 'fas fa-sun';
+        if (localStorage.getItem("theme") === "light") {
+            document.body.classList.add("light-mode");
+            themeIcon.className = "fas fa-sun";
         }
-        
+
         // Mobile Menu Toggle
-        const mobileMenu = document.getElementById('mobileMenu');
-        const navLinks = document.querySelector('.nav-links');
-        
-        mobileMenu.addEventListener('click', () => {
-            navLinks.classList.toggle('active');
-            mobileMenu.innerHTML = navLinks.classList.contains('active') 
-                ? '<i class="fas fa-times"></i>' 
+        const mobileMenu = document.getElementById("mobileMenu");
+        const navLinks = document.querySelector(".nav-links");
+
+        mobileMenu.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+            mobileMenu.innerHTML = navLinks.classList.contains("active")
+                ? '<i class="fas fa-times"></i>'
                 : '<i class="fas fa-bars"></i>';
         });
-        
+
         // Close mobile menu when clicking a link
-        document.querySelectorAll('.nav-links a').forEach(link => {
-            link.addEventListener('click', () => {
-                navLinks.classList.remove('active');
+        document.querySelectorAll(".nav-links a").forEach((link) => {
+            link.addEventListener("click", () => {
+                navLinks.classList.remove("active");
                 mobileMenu.innerHTML = '<i class="fas fa-bars"></i>';
             });
         });
-        
+
         // Active Navigation Links
-        const sections = document.querySelectorAll('section');
-        const navLinksAll = document.querySelectorAll('.nav-link');
-        
+        const sections = document.querySelectorAll("section");
+        const navLinksAll = document.querySelectorAll(".nav-link");
+
         function updateActiveNav() {
-            let current = '';
-            
-            sections.forEach(section => {
+            let current = "";
+
+            sections.forEach((section) => {
                 const sectionTop = section.offsetTop;
                 const sectionHeight = section.clientHeight;
-                
-                if (scrollY >= (sectionTop - 100)) {
-                    current = section.getAttribute('id');
+
+                if (scrollY >= sectionTop - 100) {
+                    current = section.getAttribute("id");
                 }
             });
-            
-            navLinksAll.forEach(link => {
-                link.classList.remove('active');
-                if (link.getAttribute('href') === `#${current}`) {
-                    link.classList.add('active');
+
+            navLinksAll.forEach((link) => {
+                link.classList.remove("active");
+                if (link.getAttribute("href") === `#${current}`) {
+                    link.classList.add("active");
                 }
             });
         }
-        
-        window.addEventListener('scroll', updateActiveNav);
-        
+
+        window.addEventListener("scroll", updateActiveNav);
+
         // Initialize active nav on page load
-        document.addEventListener('DOMContentLoaded', updateActiveNav);
-        
+        document.addEventListener("DOMContentLoaded", updateActiveNav);
+
         // Animated Counters
         function animateCounter(element, target, duration) {
             let start = 0;
@@ -1888,67 +1942,87 @@
             const timer = setInterval(() => {
                 start += increment;
                 element.textContent = Math.floor(start);
-                
+
                 if (start >= target) {
                     element.textContent = target;
                     clearInterval(timer);
                 }
             }, 16);
         }
-        
+        // Counters (CV based)
+        function animateCounter(el, target, duration) {
+            let start = 0,
+                inc = target / (duration / 16);
+            const timer = setInterval(() => {
+                start += inc;
+                el.textContent = Math.floor(start);
+                if (start >= target) {
+                    el.textContent = target;
+                    clearInterval(timer);
+                }
+            }, 16);
+        }
         // Project Filtering
-        const tabButtons = document.querySelectorAll('.tab-btn');
-        const projectCards = document.querySelectorAll('.project-card');
-        
-        tabButtons.forEach(button => {
-            button.addEventListener('click', () => {
+        const tabButtons = document.querySelectorAll(".tab-btn");
+        const projectCards = document.querySelectorAll(".project-card");
+
+        tabButtons.forEach((button) => {
+            button.addEventListener("click", () => {
                 // Remove active class from all buttons
-                tabButtons.forEach(btn => btn.classList.remove('active'));
+                tabButtons.forEach((btn) => btn.classList.remove("active"));
                 // Add active class to clicked button
-                button.classList.add('active');
-                
-                const filter = button.getAttribute('data-tab');
-                
-                projectCards.forEach(card => {
-                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
-                        card.style.display = 'block';
+                button.classList.add("active");
+
+                const filter = button.getAttribute("data-tab");
+
+                projectCards.forEach((card) => {
+                    if (
+                        filter === "all" ||
+                        card.getAttribute("data-category") === filter
+                    ) {
+                        card.style.display = "block";
                         setTimeout(() => {
-                            card.style.opacity = '1';
-                            card.style.transform = 'translateY(0)';
+                            card.style.opacity = "1";
+                            card.style.transform = "translateY(0)";
                         }, 10);
                     } else {
-                        card.style.opacity = '0';
-                        card.style.transform = 'translateY(20px)';
+                        card.style.opacity = "0";
+                        card.style.transform = "translateY(20px)";
                         setTimeout(() => {
-                            card.style.display = 'none';
+                            card.style.display = "none";
                         }, 300);
                     }
                 });
             });
         });
-        
+
         // Carousel functionality
         let carouselInterval;
-        
-        function createCarousel(images, type = 'images') {
-            const isVideo = type === 'video';
-            
+
+        function createCarousel(images, type = "images") {
+            const isVideo = type === "video";
+
             if (isVideo) {
                 return `
                     <div class="carousel-container">
                         <div class="carousel">
                             <div class="carousel-track">
-                                ${images.map((img, index) => `
+                                ${images
+                        .map(
+                            (img, index) => `
                                     <div class="carousel-slide" data-index="${index}">
-                                        ${img.includes('.mp4') || img.includes('.webm') 
-                                            ? `<video class="carousel-video" controls playsinline>
+                                        ${img.includes(".mp4") ||
+                                    img.includes(".webm")
+                                    ? `<video class="carousel-video" controls playsinline>
                                                 <source src="${img}" type="video/mp4">
                                                 Your browser does not support the video tag.
                                               </video>`
-                                            : `<img src="${img}" alt="Project Screenshot ${index + 1}" loading="lazy">`
-                                        }
+                                    : `<img src="${img}" alt="Project Screenshot ${index + 1}" loading="lazy">`
+                                }
                                     </div>
-                                `).join('')}
+                                `,
+                        )
+                        .join("")}
                             </div>
                             <button class="carousel-btn prev">
                                 <i class="fas fa-chevron-left"></i>
@@ -1958,23 +2032,31 @@
                             </button>
                         </div>
                         <div class="carousel-nav">
-                            ${images.map((_, index) => `
-                                <button class="carousel-dot ${index === 0 ? 'active' : ''}" data-index="${index}"></button>
-                            `).join('')}
+                            ${images
+                        .map(
+                            (_, index) => `
+                                <button class="carousel-dot ${index === 0 ? "active" : ""}" data-index="${index}"></button>
+                            `,
+                        )
+                        .join("")}
                         </div>
                     </div>
                 `;
             }
-            
+
             return `
                 <div class="carousel-container">
                     <div class="carousel">
                         <div class="carousel-track">
-                            ${images.map((img, index) => `
+                            ${images
+                    .map(
+                        (img, index) => `
                                 <div class="carousel-slide" data-index="${index}">
                                     <img src="${img}" alt="Project Screenshot ${index + 1}" loading="lazy">
                                 </div>
-                            `).join('')}
+                            `,
+                    )
+                    .join("")}
                         </div>
                         <button class="carousel-btn prev">
                             <i class="fas fa-chevron-left"></i>
@@ -1984,96 +2066,112 @@
                         </button>
                     </div>
                     <div class="carousel-nav">
-                        ${images.map((_, index) => `
-                            <button class="carousel-dot ${index === 0 ? 'active' : ''}" data-index="${index}"></button>
-                        `).join('')}
+                        ${images
+                    .map(
+                        (_, index) => `
+                            <button class="carousel-dot ${index === 0 ? "active" : ""}" data-index="${index}"></button>
+                        `,
+                    )
+                    .join("")}
                     </div>
                 </div>
             `;
         }
-        
+
         function initCarousel(carouselContainer) {
             if (!carouselContainer) return;
-            
-            const track = carouselContainer.querySelector('.carousel-track');
-            const slides = Array.from(carouselContainer.querySelectorAll('.carousel-slide'));
-            const dots = Array.from(carouselContainer.querySelectorAll('.carousel-dot'));
-            const prevBtn = carouselContainer.querySelector('.carousel-btn.prev');
-            const nextBtn = carouselContainer.querySelector('.carousel-btn.next');
-            
+
+            const track = carouselContainer.querySelector(".carousel-track");
+            const slides = Array.from(
+                carouselContainer.querySelectorAll(".carousel-slide"),
+            );
+            const dots = Array.from(
+                carouselContainer.querySelectorAll(".carousel-dot"),
+            );
+            const prevBtn = carouselContainer.querySelector(".carousel-btn.prev");
+            const nextBtn = carouselContainer.querySelector(".carousel-btn.next");
+
             let currentSlide = 0;
             const totalSlides = slides.length;
-            
+
             function goToSlide(index) {
                 if (index < 0) index = totalSlides - 1;
                 if (index >= totalSlides) index = 0;
-                
+
                 track.style.transform = `translateX(-${index * 100}%)`;
-                
+
                 // Update dots
-                dots.forEach(dot => dot.classList.remove('active'));
-                dots[index].classList.add('active');
-                
+                dots.forEach((dot) => dot.classList.remove("active"));
+                dots[index].classList.add("active");
+
                 currentSlide = index;
             }
-            
+
             function nextSlide() {
                 goToSlide(currentSlide + 1);
             }
-            
+
             function prevSlide() {
                 goToSlide(currentSlide - 1);
             }
-            
+
             // Button events
-            if (prevBtn) prevBtn.addEventListener('click', prevSlide);
-            if (nextBtn) nextBtn.addEventListener('click', nextSlide);
-            
+            if (prevBtn) prevBtn.addEventListener("click", prevSlide);
+            if (nextBtn) nextBtn.addEventListener("click", nextSlide);
+
             // Dot events
-            dots.forEach(dot => {
-                dot.addEventListener('click', () => {
-                    const index = parseInt(dot.getAttribute('data-index'));
+            dots.forEach((dot) => {
+                dot.addEventListener("click", () => {
+                    const index = parseInt(dot.getAttribute("data-index"));
                     goToSlide(index);
                     resetAutoSlide();
                 });
             });
-            
+
             // Auto-slide every 5 seconds
             function startAutoSlide() {
                 carouselInterval = setInterval(nextSlide, 5000);
             }
-            
+
             function resetAutoSlide() {
                 clearInterval(carouselInterval);
                 startAutoSlide();
             }
-            
+
             // Pause on hover
-            carouselContainer.querySelector('.carousel').addEventListener('mouseenter', () => {
-                clearInterval(carouselInterval);
-            });
-            
-            carouselContainer.querySelector('.carousel').addEventListener('mouseleave', () => {
-                startAutoSlide();
-            });
-            
+            carouselContainer
+                .querySelector(".carousel")
+                .addEventListener("mouseenter", () => {
+                    clearInterval(carouselInterval);
+                });
+
+            carouselContainer
+                .querySelector(".carousel")
+                .addEventListener("mouseleave", () => {
+                    startAutoSlide();
+                });
+
             // Touch/swipe support for mobile
             let startX = 0;
             let endX = 0;
-            
-            carouselContainer.querySelector('.carousel').addEventListener('touchstart', (e) => {
-                startX = e.touches[0].clientX;
-            });
-            
-            carouselContainer.querySelector('.carousel').addEventListener('touchend', (e) => {
-                endX = e.changedTouches[0].clientX;
-                handleSwipe();
-            });
-            
+
+            carouselContainer
+                .querySelector(".carousel")
+                .addEventListener("touchstart", (e) => {
+                    startX = e.touches[0].clientX;
+                });
+
+            carouselContainer
+                .querySelector(".carousel")
+                .addEventListener("touchend", (e) => {
+                    endX = e.changedTouches[0].clientX;
+                    handleSwipe();
+                });
+
             function handleSwipe() {
                 const threshold = 50;
                 const diff = startX - endX;
-                
+
                 if (Math.abs(diff) > threshold) {
                     if (diff > 0) {
                         nextSlide(); // Swipe left
@@ -2083,24 +2181,24 @@
                     resetAutoSlide();
                 }
             }
-            
+
             // Start auto-slide
             startAutoSlide();
-            
+
             return {
                 goToSlide,
                 nextSlide,
                 prevSlide,
-                stop: () => clearInterval(carouselInterval)
+                stop: () => clearInterval(carouselInterval),
             };
         }
-        
+
         // Project Modal
-        const projectModal = document.getElementById('projectModal');
-        const modalClose = document.getElementById('modalClose');
-        const modalTitle = document.getElementById('modalTitle');
-        const modalContent = document.getElementById('modalContent');
-        
+        const projectModal = document.getElementById("projectModal");
+        const modalClose = document.getElementById("modalClose");
+        const modalTitle = document.getElementById("modalTitle");
+        const modalContent = document.getElementById("modalContent");
+
         // Project data for modals - Complete with all project types
         const projectData = {
             // ============ SYSTEM PROJECTS ============
@@ -2110,11 +2208,14 @@
                     content: `
                         <p>This interactive demo showcases the Pharmacy Management System workflow, including dashboard navigation, POS operations, and reporting features.</p>
                         
-                        ${createCarousel([
-                            'https://assets.mixkit.co/videos/preview/mixkit-medical-app-on-a-tablet-screen-40471-large.mp4',
-                            'https://images.unsplash.com/photo-1587854692158-5a5c8d9b8f0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-                        ], 'video')}
+                        ${createCarousel(
+                        [
+                            "https://assets.mixkit.co/videos/preview/mixkit-medical-app-on-a-tablet-screen-40471-large.mp4",
+                            "https://images.unsplash.com/photo-1587854692158-5a5c8d9b8f0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                            "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        ],
+                        "video",
+                    )}
                         
                         <div class="project-details">
                             <h3>Demo Features Shown:</h3>
@@ -2126,7 +2227,7 @@
                                 <li><strong>Workflow Demonstration:</strong> Complete customer transaction process</li>
                             </ul>
                         </div>
-                    `
+                    `,
                 },
                 overview: {
                     title: "Pharmacy Management System - Overview",
@@ -2134,11 +2235,11 @@
                         <p>A comprehensive desktop application built with Qt Creator and PySide6 for managing all pharmacy operations efficiently.</p>
                         
                         ${createCarousel([
-                            'https://images.unsplash.com/photo-1587854692158-5a5c8d9b8f0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-                        ])}
+                        "https://images.unsplash.com/photo-1587854692158-5a5c8d9b8f0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1551601651-2a8555f1a136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                    ])}
                         
                         <div class="project-details">
                             <h3>Key Features:</h3>
@@ -2163,21 +2264,24 @@
                             <h3>Performance:</h3>
                             <p>Reduced medication dispensing errors by 40% and improved inventory accuracy by 60% compared to manual systems.</p>
                         </div>
-                    `
-                }
+                    `,
+                },
             },
-            
+
             restaurant: {
                 demo: {
                     title: "Restaurant Management System - Demo",
                     content: `
                         <p>Interactive demo showcasing the Restaurant Management System's complete workflow from order taking to billing.</p>
                         
-                        ${createCarousel([
-                            'https://assets.mixkit.co/videos/preview/mixkit-woman-ordering-food-on-a-tablet-in-a-cafe-40632-large.mp4',
-                            'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-                        ], 'video')}
+                        ${createCarousel(
+                        [
+                            "https://assets.mixkit.co/videos/preview/mixkit-woman-ordering-food-on-a-tablet-in-a-cafe-40632-large.mp4",
+                            "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                            "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        ],
+                        "video",
+                    )}
                         
                         <div class="project-details">
                             <h3>Demo Features Shown:</h3>
@@ -2189,7 +2293,7 @@
                                 <li><strong>Complete Workflow:</strong> From customer seating to payment completion</li>
                             </ul>
                         </div>
-                    `
+                    `,
                 },
                 overview: {
                     title: "Restaurant Management System - Overview",
@@ -2197,11 +2301,11 @@
                         <p>A complete desktop solution for restaurant management with Qt Creator and Python backend, designed to streamline restaurant operations.</p>
                         
                         ${createCarousel([
-                            'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1578474846511-04ba529f0b88?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-                        ])}
+                        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1578474846511-04ba529f0b88?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                    ])}
                         
                         <div class="project-details">
                             <h3>Core Functionalities:</h3>
@@ -2226,10 +2330,10 @@
                             <h3>Impact:</h3>
                             <p>Increased order processing speed by 35% and reduced billing errors by 90% compared to manual systems.</p>
                         </div>
-                    `
-                }
+                    `,
+                },
             },
-            
+
             // ============ WEBSITE PROJECTS ============
             eggo: {
                 overview: {
@@ -2238,11 +2342,11 @@
                         <p>A full-featured tourism website for travel bookings and destination information, designed to provide seamless travel planning experiences.</p>
                         
                         ${createCarousel([
-                            'https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-                        ])}
+                        "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1501785888041-af3ef285b470?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                    ])}
                         
                         <div class="project-details">
                             <h3>Website Purpose:</h3>
@@ -2278,10 +2382,10 @@
                             
                             <p><strong>Live Website:</strong> <a href="https://eggotravel.com/" target="_blank" style="color: var(--primary);">https://eggotravel.com/</a></p>
                         </div>
-                    `
-                }
+                    `,
+                },
             },
-            
+
             student: {
                 overview: {
                     title: "Student Assistant Website - Academic Management System",
@@ -2289,11 +2393,11 @@
                         <p>A web-based academic management system developed to assist students in organizing their studies, tracking progress, and accessing educational resources.</p>
                         
                         ${createCarousel([
-                            'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-                        ])}
+                        "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                    ])}
                         
                         <div class="project-details">
                             <h3>Project Purpose:</h3>
@@ -2328,10 +2432,10 @@
                                 <li>Better tracking of academic progress</li>
                             </ul>
                         </div>
-                    `
-                }
+                    `,
+                },
             },
-            
+
             // ============ WORDPRESS PROJECTS ============
             car: {
                 overview: {
@@ -2340,11 +2444,11 @@
                         <p>A custom WordPress website for car rental services with advanced booking functionality and responsive design.</p>
                         
                         ${createCarousel([
-                            'https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-                        ])}
+                        "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1580273916550-e323be2ae537?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                    ])}
                         
                         <div class="project-details">
                             <h3>Project Details:</h3>
@@ -2399,10 +2503,10 @@
                             
                             <p><strong>Live Website:</strong> <a href="https://a1-carrental.com/" target="_blank" style="color: var(--primary);">https://a1-carrental.com/</a></p>
                         </div>
-                    `
-                }
+                    `,
+                },
             },
-            
+
             // ============ MOBILE PROJECTS ============
             shopping: {
                 demo: {
@@ -2410,12 +2514,15 @@
                     content: `
                         <p>Interactive demo showcasing the Shopping Mobile App's features and user interface.</p>
                         
-                        ${createCarousel([
-                            'https://assets.mixkit.co/videos/preview/mixkit-woman-shopping-on-her-smartphone-4832-large.mp4',
-                            'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1556742044-3c52d6e88c62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1556740738-6eb8fa306519?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-                        ], 'video')}
+                        ${createCarousel(
+                        [
+                            "https://assets.mixkit.co/videos/preview/mixkit-woman-shopping-on-her-smartphone-4832-large.mp4",
+                            "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                            "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                            "https://images.unsplash.com/photo-1556740738-6eb8fa306519?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        ],
+                        "video",
+                    )}
                         
                         <div class="project-details">
                             <h3>Demo Features Shown:</h3>
@@ -2428,7 +2535,7 @@
                                 <li><strong>UI Animations:</strong> Smooth transitions and interactive elements</li>
                             </ul>
                         </div>
-                    `
+                    `,
                 },
                 overview: {
                     title: "Shopping Mobile App - Overview",
@@ -2436,11 +2543,11 @@
                         <p>A feature-rich e-commerce mobile application developed with Flutter and Dart, providing a seamless shopping experience on mobile devices.</p>
                         
                         ${createCarousel([
-                            'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1556742044-3c52d6e88c62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1556740738-6eb8fa306519?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                            'https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-                        ])}
+                        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1556740738-6eb8fa306519?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                        "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                    ])}
                         
                         <div class="project-details">
                             <h3>App Features:</h3>
@@ -2484,31 +2591,36 @@
                                 <li><strong>Design:</strong> Figma for UI/UX design and prototyping</li>
                             </ul>
                         </div>
-                    `
-                }
-            }
+                    `,
+                },
+            },
         };
-        
+
         // Open modal when project buttons are clicked
-        document.querySelectorAll('.project-btn').forEach(button => {
-            button.addEventListener('click', function() {
-                const project = this.getAttribute('data-project');
-                const type = this.getAttribute('data-type');
-                
+        document.querySelectorAll(".project-btn").forEach((button) => {
+            button.addEventListener("click", function () {
+                const project = this.getAttribute("data-project");
+                const type = this.getAttribute("data-type");
+
                 // For external links (Live Preview, View Website), don't open modal
-                if (this.classList.contains('demo-btn') && this.getAttribute('href')) {
+                if (
+                    this.classList.contains("demo-btn") &&
+                    this.getAttribute("href")
+                ) {
                     return; // Let the link work normally (opens in new tab)
                 }
-                
+
                 if (projectData[project] && projectData[project][type]) {
                     modalTitle.textContent = projectData[project][type].title;
                     modalContent.innerHTML = projectData[project][type].content;
-                    projectModal.classList.add('active');
-                    document.body.style.overflow = 'hidden';
-                    
+                    projectModal.classList.add("active");
+                    document.body.style.overflow = "hidden";
+
                     // Initialize carousel if present
                     setTimeout(() => {
-                        const carouselContainer = modalContent.querySelector('.carousel-container');
+                        const carouselContainer = modalContent.querySelector(
+                            ".carousel-container",
+                        );
                         if (carouselContainer) {
                             initCarousel(carouselContainer);
                         }
@@ -2516,101 +2628,106 @@
                 }
             });
         });
-        
+
         // Close modal
-        modalClose.addEventListener('click', () => {
-            projectModal.classList.remove('active');
-            document.body.style.overflow = 'auto';
-            
+        modalClose.addEventListener("click", () => {
+            projectModal.classList.remove("active");
+            document.body.style.overflow = "auto";
+
             // Clear carousel interval
             if (carouselInterval) {
                 clearInterval(carouselInterval);
             }
         });
-        
+
         // Close modal when clicking outside
-        projectModal.addEventListener('click', (e) => {
+        projectModal.addEventListener("click", (e) => {
             if (e.target === projectModal) {
-                projectModal.classList.remove('active');
-                document.body.style.overflow = 'auto';
-                
+                projectModal.classList.remove("active");
+                document.body.style.overflow = "auto";
+
                 // Clear carousel interval
                 if (carouselInterval) {
                     clearInterval(carouselInterval);
                 }
             }
         });
-        
+
         // Contact form submission
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your message! I will get back to you soon.');
-            this.reset();
-        });
-        
+        document
+            .getElementById("contactForm")
+            .addEventListener("submit", function (e) {
+                e.preventDefault();
+                alert("Thank you for your message! I will get back to you soon.");
+                this.reset();
+            });
+
         // Scroll animations
         const observerOptions = {
             threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
+            rootMargin: "0px 0px -50px 0px",
         };
-        
+
         const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
+            entries.forEach((entry) => {
                 if (entry.isIntersecting) {
-                    entry.target.classList.add('visible');
+                    entry.target.classList.add("visible");
                 }
             });
         }, observerOptions);
-        
+
         // Observe all fade-in elements
-        document.querySelectorAll('.fade-in').forEach(el => {
+        document.querySelectorAll(".fade-in").forEach((el) => {
             observer.observe(el);
         });
-        
+
         // Initialize counters when about section is visible
-        const aboutObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    animateCounter(document.getElementById('projectCount'), 15, 2000);
-                    animateCounter(document.getElementById('techCount'), 25, 2000);
-                    animateCounter(document.getElementById('expCount'), 15, 2000);
-                    aboutObserver.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.5 });
-        
-        aboutObserver.observe(document.getElementById('about'));
-        
+        const aboutObserver = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        animateCounter(document.getElementById("projectCount"), 15, 2000);
+                        animateCounter(document.getElementById("techCount"), 25, 2000);
+                        animateCounter(document.getElementById("expCount"), 15, 2000);
+                        aboutObserver.unobserve(entry.target);
+                    }
+                });
+            },
+            { threshold: 0.5 },
+        );
+
+        aboutObserver.observe(document.getElementById("about"));
+
         // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
+        document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+            anchor.addEventListener("click", function (e) {
                 e.preventDefault();
-                
-                const targetId = this.getAttribute('href');
-                if (targetId === '#') return;
-                
+
+                const targetId = this.getAttribute("href");
+                if (targetId === "#") return;
+
                 const targetElement = document.querySelector(targetId);
                 if (targetElement) {
                     window.scrollTo({
                         top: targetElement.offsetTop - 80,
-                        behavior: 'smooth'
+                        behavior: "smooth",
                     });
                 }
             });
         });
-        
+
         // Navbar background on scroll
-        window.addEventListener('scroll', () => {
-            const navbar = document.querySelector('.navbar');
+        window.addEventListener("scroll", () => {
+            const navbar = document.querySelector(".navbar");
             if (window.scrollY > 50) {
-                navbar.style.backgroundColor = 'rgba(18, 18, 18, 0.95)';
-                if (document.body.classList.contains('light-mode')) {
-                    navbar.style.backgroundColor = 'rgba(255, 255, 255, 0.95)';
+                navbar.style.backgroundColor = "rgba(18, 18, 18, 0.95)";
+                if (document.body.classList.contains("light-mode")) {
+                    navbar.style.backgroundColor = "rgba(255, 255, 255, 0.95)";
                 }
             } else {
-                navbar.style.backgroundColor = 'rgba(18, 18, 18, 0.9)';
-                if (document.body.classList.contains('light-mode')) {
-                    navbar.style.backgroundColor = 'rgba(255, 255, 255, 0.9)';
+                navbar.style.backgroundColor = "rgba(18, 18, 18, 0.9)";
+                if (document.body.classList.contains("light-mode")) {
+                    navbar.style.backgroundColor = "rgba(255, 255, 255, 0.9)";
                 }
             }
         });
